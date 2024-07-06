@@ -1,7 +1,7 @@
 @media only screen and (min-width: 700px){
     body {
         max-width: 100%;
-        background-image: url(bg-img.png);
+        background-image: url("https://raw.githubusercontent.com/justheowl/scholarev-testsite/main/bg-img.png");
         background-size: cover;
         background-repeat: no-repeat;
         width: auto;
@@ -13,7 +13,7 @@
 @media only screen and (max-width: 700px) {
 body {
     max-width: 100%;
-    background-image: url("bg-tabandmob.png"); 
+    background-image: url("https://raw.githubusercontent.com/justheowl/scholarev-testsite/main/bg-tabandmob.png"); 
     background-size: cover;
     background-repeat:no-repeat;
     width: auto;
