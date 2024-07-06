@@ -101,7 +101,7 @@ input:checked+label {
 
 label.tab:hover {
     background-color:#03427d;
-    text-decoration:wavy;
+    color: #fff;
 }
 
 #note, .note, span.note {
