@@ -143,17 +143,7 @@ h5 {
 }
 
 /* broken search */
-#wiki-content .search-box  input[type="text"] {
-    height:20px;
-    padding:5px;
-    width:95%;
-    margin:5px 10px 5px 10px;
-    display: block;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    font-weight: bold;
-    color:#9d9d9d;
-    opacity: 100%;
+#wiki-content .search-box input[type="text"] {
     cursor: not-allowed;
 }
 
@@ -194,17 +184,23 @@ img.logo {
         background-image: none;
         padding: 2%;
         margin: 4% auto;
+        align-self: center;
     }
 
     div.main-card {
         margin: 5% auto;
         padding:10px;
-        width: 80%;
+        width: 95%;
+        align-self:center;
     }
 
     img.logo {
         height: 40px;
         width: 50px;
+    }
+
+    img.gs {
+        width:80px;
     }
 
     .main-card .title-container h1 {
@@ -215,11 +211,17 @@ img.logo {
         width: 60%;
         height: 10px;
         padding: 1px auto;
+        font-size: 90%;
     }
 
     label {
-        font-size: 100%;
-        width:20%;
+        font-size: 50%;
+        width:15%;
+        height: 20px;
+    }
+
+    h5 {
+        font-size:50%;
     }
 
 }
@@ -234,16 +236,22 @@ img.logo {
         height: 100%;
         padding: 4%;
         margin: 4.5% auto;
+        align-self: center;
     }
 
     div.main-card {
         margin: 5% auto;
         width: 80%;
+        align-self: center;
     }
 
     img.logo {
         height: 40px;
         width: 50px;
+    }
+
+    img.gs {
+        width:110px;
     }
 
     .main-card .title-container h1 {
@@ -254,10 +262,15 @@ img.logo {
         width: 60%;
         height: 10px;
         padding: 1px auto;
+        font-size: 90%;
     }
 
     label {
         font-size: 110%;
         width:20%;
+    }
+
+    h5 {
+        font-size:60%;
     }
 }
